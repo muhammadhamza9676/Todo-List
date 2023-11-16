@@ -1,0 +1,75 @@
+.task {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 5px;
+    overflow-x: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task span {
+    color: #302d2d;
+  }
+  
+  .icon {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  article {
+    display: grid;
+  }
+  
+  .edit-todo {
+    width: 85%;
+    font-size: 16px;
+    color: #302d2d;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+  }
+
+ 
+
+
+
+  .icon {
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+    padding: 2px;
+    transition: background-color 0.3s;
+    border-radius: 3px;
+  }
+  
+  .icon i {
+    transition: color 0.3s;
+  }
+  
+  /* Trash icon */
+  .icon.trash:hover {
+    background-color: #ee1630;
+  }
+  
+  .icon.trash:hover i {
+    color: white;
+  }
+  
+  /* Pen icon */
+  .icon.pen:hover {
+    background-color: #7c53d7;
+  }
+  
+  .icon.pen:hover i {
+    color: white;
+  }
+  
+  /* Check icon */
+  .icon.check:hover {
+    background-color: #28a745;
+  }
+  
+  .icon.check:hover i {
+    color: white;
+  }
+  
